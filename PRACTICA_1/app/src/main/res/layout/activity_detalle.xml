@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalle">
+
+    <ImageView
+        android:id="@+id/imgVwRest"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barrafina" />
+
+    <TextView
+        android:id="@+id/txtVwNom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="527dp"
+        android:background="#535353"
+        android:text="Barra Fina"
+        android:textAlignment="center"
+        android:textColor="#CED8D8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVwRest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVwRest" />
+
+    <TextView
+        android:id="@+id/txtVwDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="471dp"
+        android:background="#535353"
+        android:text="Restaurante Gourmet"
+        android:textAlignment="center"
+        android:textColor="#CED8D8"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVwRest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVwRest"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/txtVwDir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="461dp"
+        android:layout_marginBottom="110dp"
+        android:background="#535353"
+        android:text="\tPeriférico de la juventud #312 Distrito 1"
+        android:textAlignment="textStart"
+        android:textColor="#CED8D8"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVwRest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVwRest" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="509dp"
+        android:layout_marginBottom="61dp"
+        android:background="#535353"
+        android:text="\tTel: "
+        android:textAlignment="textStart"
+        android:textColor="#CED8D8"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVwRest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVwRest" />
+
+    <TextView
+        android:id="@+id/txtVwTel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginBottom="62dp"
+        android:background="#535353"
+        android:clickable="true"
+        android:onClick="llamar"
+        android:text="442-5000"
+        android:textAlignment="textStart"
+        android:textColor="#CED8D8"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVwRest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/imgVwRest" />
+
+</android.support.constraint.ConstraintLayout>

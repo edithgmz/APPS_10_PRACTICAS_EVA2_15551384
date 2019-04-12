@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PRACTICA_2</string>
+    <string name="lbl1">Asignatura:</string>
+    <string name="lbl2">Créditos:</string>
+    <string name="lbl3">Docente titular:</string>
+    <string name="txt_mat">Fundamentos de Programación</string>
+    <string name="txt_cred">5</string>
+    <string name="txt_doce">Osamu Dazai</string>
+    <string name="txt_are">Programación</string>
+    <string name="img_doc">docente</string>
+    <string name="img_mat">materia</string>
+    <string name="img_are">area</string>
+    <string name="titu1">Asignaturas</string>
+</resources>
